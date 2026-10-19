@@ -1,0 +1,31 @@
+{
+  "_comment": "Regression tolerances against SAVI v1.10's calculated sample run. Changing a value needs a decision-log entry and a reviewer (QA framework, Principles).",
+  "relative": {
+    "valuation.grc": 1e-9,
+    "valuation.drc": 1e-9,
+    "valuation.annual_depreciation": 1e-9,
+    "valuation.accumulated_depreciation": 1e-9,
+    "valuation.by_avf_group": 1e-9,
+    "valuation.by_structure_type": 1e-9,
+    "structures.money": 1e-9,
+    "elements.money": 1e-9
+  },
+  "absolute": {
+    "condition.ssci": 1e-9,
+    "condition.sci": 1e-9,
+    "elements.ratio": 1e-12
+  },
+  "exact": [
+    "condition.bands",
+    "condition.structures_at_risk",
+    "elements.exposure_id",
+    "elements.rule_row",
+    "structures.state_of_good_repair"
+  ],
+  "provisional_not_in_poc": {
+    "short_term_plan.expenditure": "0.5% relative (MVP)",
+    "short_term_plan.ssci_av_y5": "0.1 absolute (MVP)",
+    "long_term_plan.expenditure": "1% relative (MVP)",
+    "long_term_plan.workbank_end": "1% relative (MVP)"
+  }
+}

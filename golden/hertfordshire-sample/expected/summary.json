@@ -1,0 +1,249 @@
+{
+  "source": "SAVI v1.10 'with sample data and analysis' - Value Dashboard, Y0 and LAMP/SAMP sheets",
+  "n_structure_records": 652,
+  "n_structures": 700.0,
+  "n_elements": 8692.0,
+  "valuation": {
+    "grc": 377929803.68241936,
+    "drc": 257364205.74875662,
+    "annual_depreciation": 5632473.579791486,
+    "accumulated_depreciation": 120565597.93366267,
+    "price_year": "2025/26",
+    "by_avf_group": {
+      "AVF_Bridge": {
+        "structures": 267.0,
+        "grc": 228767056.84422064,
+        "drc": 151457269.09168747,
+        "depreciation": 77309787.75253317
+      },
+      "AVF_RetainingWall": {
+        "structures": 36.0,
+        "grc": 9231363.771913748,
+        "drc": 5987501.264631801,
+        "depreciation": 3243862.507281947
+      },
+      "AVF_SmallCulvert": {
+        "structures": 197.0,
+        "grc": 41864129.94357953,
+        "drc": 29107737.424839623,
+        "depreciation": 12756392.518739909
+      },
+      "AVF_SignGantry": {
+        "structures": 4.0,
+        "grc": 614663.3594422678,
+        "drc": 456568.4977315577,
+        "depreciation": 158094.8617107101
+      },
+      "AVF_HighMast": {
+        "structures": 49.0,
+        "grc": 2089302.9713768384,
+        "drc": 1365194.5254330586,
+        "depreciation": 724108.4459437798
+      },
+      "AVF_Tunnel": {
+        "structures": 4.0,
+        "grc": 27070961.388700295,
+        "drc": 22641090.0372746,
+        "depreciation": 4429871.351425696
+      },
+      "AVF_Other": {
+        "structures": 143.0,
+        "grc": 68292325.40318592,
+        "drc": 46348844.907158494,
+        "depreciation": 21943480.496027425
+      }
+    },
+    "by_structure_type": {
+      "Bridge:  Vehicular (single span)": {
+        "structures": 172.0,
+        "grc": 132554832.89645013,
+        "drc": 89105668.91159733
+      },
+      "Bridge:  Vehicular (2 or 3 spans)": {
+        "structures": 35.0,
+        "grc": 49791579.96415314,
+        "drc": 31117045.534856524
+      },
+      "Bridge:  Vehicular (4 or more spans)": {
+        "structures": 9.0,
+        "grc": 34975902.102968745,
+        "drc": 24152984.303665962
+      },
+      "Bridge:  Pedestrian/Cycle (single span)": {
+        "structures": 25.0,
+        "grc": 2092793.0571605451,
+        "drc": 1395664.4060273352
+      },
+      "Bridge:  Pedestrian/Cycle (multi-span)": {
+        "structures": 26.0,
+        "grc": 9351948.823488109,
+        "drc": 5685905.935540361
+      },
+      "Cantilever Road Sign": {
+        "structures": 1.0,
+        "grc": 142131.60543723052,
+        "drc": 137067.59881434677
+      },
+      "Chamber/Cellar/Vault": {
+        "structures": 3.0,
+        "grc": 5872520.927789455,
+        "drc": 3656389.9138771025
+      },
+      "Culvert (single cell)": {
+        "structures": 160.0,
+        "grc": 35060969.22725562,
+        "drc": 24692128.085098125
+      },
+      "Culvert (multi-cell)": {
+        "structures": 37.0,
+        "grc": 6803160.71632392,
+        "drc": 4415609.3397415
+      },
+      "High Mast Lighting": {
+        "structures": 49.0,
+        "grc": 2089302.9713768384,
+        "drc": 1365194.5254330586
+      },
+      "Retaining Wall (height > 3m)": {
+        "structures": 16.0,
+        "grc": 6135661.432421727,
+        "drc": 4008687.093407735
+      },
+      "Retaining Wall (height \u2264 3m)": {
+        "structures": 20.0,
+        "grc": 3095702.3394920244,
+        "drc": 1978814.171224065
+      },
+      "Sign/Signal Gantry (cantilever)": {
+        "structures": 2.0,
+        "grc": 127906.82624232162,
+        "drc": 107216.84357984568
+      },
+      "Sign/Signal Gantry (spanning)": {
+        "structures": 2.0,
+        "grc": 486756.53319994616,
+        "drc": 349351.65415171196
+      },
+      "Structural Earthworks (height > 3m)": {
+        "structures": 2.0,
+        "grc": 368619.9114248908,
+        "drc": 261868.0618346042
+      },
+      "Structural Earthworks (height \u2264 3m)": {
+        "structures": 1.0,
+        "grc": 32712.675496634638,
+        "drc": 25595.116221931024
+      },
+      "Underpass:  Vehicular": {
+        "structures": 3.0,
+        "grc": 5484233.651074004,
+        "drc": 4286471.623125102
+      },
+      "Underpass (or Subway):  Pedestrian": {
+        "structures": 135.0,
+        "grc": 61588517.24653602,
+        "drc": 42105937.238460965
+      },
+      "Subway:  Pipe": {
+        "structures": 1.0,
+        "grc": 287823.0365016839,
+        "drc": 161986.97794953472
+      },
+      "Tunnel (bored)": {
+        "structures": 1.0,
+        "grc": 21586727.73762629,
+        "drc": 18354618.414149497
+      },
+      "Tunnel (cut and cover)": {
+        "structures": 0.0,
+        "grc": 0.0,
+        "drc": 0.0
+      }
+    }
+  },
+  "condition_y0": {
+    "ssci_av": {
+      "Bridges": 87.30742438527822,
+      "Retaining Walls": 88.36292238943555,
+      "Culverts": 90.25698924444859,
+      "Sign/Signal Gantries": 93.24570021051191,
+      "High Mast Lighting": 58.0,
+      "Tunnels and Vehicular Underpasses": 76.24771315302169,
+      "Stock": 86.4207798720426
+    },
+    "ssci_crit": {
+      "Bridges": 78.09664543539255,
+      "Retaining Walls": 84.83639826500993,
+      "Culverts": 87.02797152165155,
+      "Sign/Signal Gantries": 82.97687861271676,
+      "High Mast Lighting": 58.0,
+      "Tunnels and Vehicular Underpasses": 75.95405975139929,
+      "Stock": 78.14148110943589
+    },
+    "ssci_table": {
+      "Bridges": {
+        "ssci_av": 87.30742438527822,
+        "ssci_crit": 78.09664543539255,
+        "sss": 0.965941178516988
+      },
+      "Retaining Walls": {
+        "ssci_av": 88.36292238943555,
+        "ssci_crit": 84.83639826500993,
+        "sss": 0.9559729967713531
+      },
+      "Culverts": {
+        "ssci_av": 90.25698924444859,
+        "ssci_crit": 87.02797152165155,
+        "sss": 0.9946726894994137
+      },
+      "Sign/Signal Gantries": {
+        "ssci_av": 93.24570021051191,
+        "ssci_crit": 82.97687861271676,
+        "sss": 1.0
+      },
+      "High Mast Lighting": {
+        "ssci_av": 58.0,
+        "ssci_crit": 58.0,
+        "sss": 0.0
+      },
+      "Tunnels and Vehicular Underpasses": {
+        "ssci_av": 76.24771315302169,
+        "ssci_crit": 75.95405975139929,
+        "sss": 1.0
+      },
+      "Other": {
+        "ssci_av": 89.22641580290302,
+        "ssci_crit": 82.88070759551645,
+        "sss": 0.9733952732392128
+      },
+      "Stock": {
+        "ssci_av": 86.4207798720426,
+        "ssci_crit": 78.14148110943589,
+        "sss": 0.9648343972861723
+      }
+    },
+    "bands": {
+      "Very Good": 273.0,
+      "Good": 283.0,
+      "Fair": 89.0,
+      "Poor": 55.0,
+      "Very Poor": 0.0
+    },
+    "structures_at_risk": 134.0,
+    "traffic_delay_cost": 1863970.5765001967
+  },
+  "short_term_plan": {
+    "budget": 15000000.0,
+    "expenditure": 14233985.31661718,
+    "ssci_av_y5": 83.95361701445361,
+    "ssci_crit_y5": 75.02772605603691,
+    "sss_y5": 0.9834863319834035
+  },
+  "long_term_plan": {
+    "years": 30.0,
+    "total_budget": 135000000.0,
+    "expenditure": 130770572.74591169,
+    "discounted_expenditure": 79081710.31780808,
+    "workbank_end": 103390688.72994602
+  }
+}

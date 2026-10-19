@@ -1,0 +1,19 @@
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.hypothesis/
+.coverage
+results/
+*.xlsm
+
+# node and build artefacts
+node_modules/
+web/build/
+web/dist/
+
+# host settings and secrets: .vercel holds the project link and a short-lived OIDC token,
+# settings.local.json records local tool permissions (which can include the access code)
+.vercel/
+.env
+.env.*
+.claude/settings.local.json

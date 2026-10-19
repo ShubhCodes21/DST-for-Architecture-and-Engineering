@@ -1,0 +1,46 @@
+name: ci
+on:
+  push:
+  pull_request:
+
+jobs:
+  engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[test]" pytest-cov
+      # QA families 1-2: integrity, validation, units, properties, SAVI regression. Merge blocked on failure.
+      - run: pytest -q -m "not ui" --cov=dst_engine --cov-fail-under=85
+      - name: Valuation smoke run
+        run: python -m dst_engine valuation golden/hertfordshire-sample/inputs --out results
+
+  web:
+    runs-on: ubuntu-latest
+    needs: engine
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: pip install -e ".[test]" pytest-cov pytest-playwright && python -m playwright install --with-deps chromium
+      - run: python tools/export_web_data.py
+      - working-directory: web
+        run: npm ci && npm run typecheck && npm test        # browser engine = SAVI; service flows; grounding
+      - working-directory: web
+        run: node build.mjs                                  # also writes deploy/public/index.html
+      - working-directory: deploy
+        run: npm test                                        # AI proxy: key handling, access code, rate limit
+      # QA family 3: UI flows against the built page
+      - run: pytest -q -m ui --junitxml=web/build/pytest-ui.xml
+      - uses: actions/upload-artifact@v4
+        with:
+          name: structures-dst-page
+          path: |
+            web/dist/index.html
+            deploy/

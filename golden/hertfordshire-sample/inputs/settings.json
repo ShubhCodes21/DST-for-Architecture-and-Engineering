@@ -1,0 +1,32 @@
+{
+  "organisation": "Hertfordshire County Council",
+  "authority_type": "Local Authority",
+  "price_year": "2025/26",
+  "intervention_strategy": "Mid Intervention (condition 4B)",
+  "input_date": "2026-05-21 00:00:00",
+  "years_long_term": 30,
+  "budget_5yr_annual": 3000000,
+  "budget_long_term": [
+    [
+      1,
+      null,
+      5,
+      null,
+      3000000
+    ],
+    [
+      6,
+      null,
+      10,
+      null,
+      4000000
+    ],
+    [
+      11,
+      null,
+      30,
+      null,
+      5000000
+    ]
+  ]
+}

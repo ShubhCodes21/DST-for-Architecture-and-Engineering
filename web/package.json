@@ -1,0 +1,30 @@
+{
+  "name": "savi-dst-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "esbuild test/engine.test.ts test/service.test.ts test/ai.test.ts --bundle --platform=node --outdir=build --out-extension:.js=.cjs --log-level=warning && node --test --test-reporter=tap --test-reporter-destination=build/node-tests.tap --test-reporter=spec --test-reporter-destination=stdout build/engine.test.cjs build/service.test.cjs build/ai.test.cjs",
+    "build": "node build.mjs",
+    "typecheck": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.24.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "xlsx": "^0.18.5"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.6.3"
+  }
+}

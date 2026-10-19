@@ -1,0 +1,17 @@
+{
+  "dataset": "hertfordshire-sample",
+  "description": "Hertfordshire CC sample stock shipped with SAVI v1.10, with SAVI's own calculated results.",
+  "ruleset": "savi-1.10",
+  "source_workbook": "sample.xlsm",
+  "source_sha256": "00d8b2421e31c41bb459574fcbed66996de0c34a03a6ce4f7a7ab913862ee11b",
+  "files": {
+    "inputs/structures.parquet": "1cbf7bf7244b1f3c57c073208f622d2fc95cd009a74216948d4ffe1cd8609ab7",
+    "inputs/elements.parquet": "021ef09140fd3c114749c8ecf77e52dbdb7f14fbc7b0fac217c52803948eacbc",
+    "inputs/planned.parquet": "da89e948aa09844673172b3d945c9f25eba2737197165b78d12f2ff97894c87c",
+    "inputs/routine.parquet": "40e89aab7a7ca911135bcb2d7329cc73e36b39a81b2dae2e840d7f27528369a9",
+    "inputs/settings.json": "315a60a66e20d54c81d471a6d214a9a611379f1b0c53e3ef855bf735894f5068",
+    "expected/structures.parquet": "10cde44d2cea4f1fa4e7e65f5995fc7ead2af96e84a79cc1c5d4def4fd58eb87",
+    "expected/elements.parquet": "721ef95dc82f6cc940144a673f4f368eb7ff237772b7711d868867cad0713083",
+    "expected/summary.json": "9d8a8a116e7a03dbed9e8cc9949e039ba7892acdae3e719bee1f02e83680d735"
+  }
+}

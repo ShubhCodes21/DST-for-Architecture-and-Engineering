@@ -1,0 +1,13 @@
+{
+  "source_workbook": "sample.xlsm",
+  "source_sha256": "00d8b2421e31c41bb459574fcbed66996de0c34a03a6ce4f7a7ab913862ee11b",
+  "note": "Columns are SAVI column letters; row i is SAVI row (first data row + i).",
+  "files": {
+    "y0.parquet": "ca6f340b3aa2b601c1486204d18277aff8bbc91c2e644d8eac8f44b1a348065e",
+    "y5.parquet": "d7d0fc5f2f6c4a7895fb6276ec37d893f08b21eac39890d0e069e48b8b32141f",
+    "yn.parquet": "bc11a8aa2842b05b65d3156fbcf4deccc665ccb4fe1f3b477cb9b25f5e6a9f65",
+    "ecs_profile.parquet": "8e4ab7ffb7303eaef0e3a2cf232596216e1f287fcde9b4e8ff8ea113c212a0e2",
+    "lamp_results.parquet": "eb1d641ecca9779eeca79ffd018f883b564684d1868fb6756723910f44ad31fa",
+    "ref99.parquet": "1b31cee61a444321c128a8caec2e071c41f6872a572faf948cd338d0ffd1c6e8"
+  }
+}
