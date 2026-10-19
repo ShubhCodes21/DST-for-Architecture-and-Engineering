@@ -9,6 +9,27 @@ A decision support tool for UK highway structures that follows the SAMPT method 
   the browser. The AI layer (Claude, through the artifact runtime) answers questions and drafts decision notes
   from the engine's numbers only.
 
+## Provenance of the data
+
+The method and the rule data are not original to this repository. The **SAMPT** method and the **SAVI v1.10**
+workbook are published by the **UKRLG UK Bridges Board**; this project implements that method and checks itself
+against SAVI's own results. Specifically:
+
+| In this repository | Derived from |
+| --- | --- |
+| `rulesets/savi-1.10/` (30 rule tables + manifest) | SAVI v1.10 Ref tables / SAMPT Part C |
+| `golden/hertfordshire-sample/inputs/` | the inventory in SAVI's own sample workbook |
+| `golden/hertfordshire-sample/expected/` | SAVI's calculated results for that sample, used as the regression oracle |
+| `web/data/*.json`, `web/test/fixtures/*.json` | exports of the two above, via `tools/export_web_data.py` |
+
+The SAVI workbooks themselves are **not** redistributed here (`*.xlsm` is gitignored); you need your own copy to
+rebuild the fixtures. The sample inventory is SAVI's illustrative Hertfordshire stock, not a live asset register,
+and the figures in it describe no authority's actual assets.
+
+This material remains the property of its owners and is subject to their terms, which this repository does not
+alter or extend. Check those terms before redistributing any of it or making this repository public. Nothing here
+implies endorsement by the UKRLG, the UK Bridges Board or any highway authority.
+
 ## MVP exit gate: passed
 
 | Gate | Result |

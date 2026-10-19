@@ -1,0 +1,27 @@
+Copyright (c) 2026 <COPYRIGHT HOLDER - replace with your name, or the name of the
+organisation that commissioned this work if the rights are theirs>
+
+All rights reserved.
+
+This repository is made available for reference, review and demonstration. Viewing and
+cloning it for those purposes is permitted. No other rights are granted: it may not be
+copied, modified, merged, published, distributed, sublicensed or used in another product
+or service, in whole or in part, without the written permission of the copyright holder.
+
+THIRD-PARTY MATERIAL
+
+Parts of this repository are derived from the SAMPT method and the SAVI v1.10 workbook
+published by the UKRLG UK Bridges Board, and from SAVI's own sample data. Those parts are
+not the copyright holder's to license, and nothing above grants any right in them. They
+remain subject to their owners' terms. See "Provenance of the data" in README.md for what
+is derived and from where.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+The figures this tool produces are decision support, not a substitute for a qualified
+engineer's judgement or for an authority's own asset management process.
